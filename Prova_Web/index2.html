@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Página 2</title>
+</head>
+<body>
+    <div class="jumbotron text-center" >
+        <h1>Covid-19: Registro de Casos e Óbitos</h2>
+    </div>
+    <div class="container">
+        <form>
+            <p></p>
+            <p>Sigla do Estado:</p> 
+            <input type="text" id="sigla"/>
+            <p></p>
+            <p>Data:</p>
+            <input type="text" id="data"/>
+            <p></p>
+            <p>Número de Casos</p>
+            <input type="text" id="qtCasos"/>
+            <p></p>
+            <p>Números de Óbitos</p>
+            <input type="text" id="qtMortes"/>
+            <p></p>
+            <p><button type="button" onclick="incluir()" ondblclick="verregistro()"
+            >Adicionar</button><br/></p>
+        </form>
+        <a href="#" onclick="verregistro()">Registro Casos de Óbitos</a>
+            <br> <br>
+            <div id="relatorio"></div>
+    </div>
+
+    <script src="index2.js"></script>
+</body>
+</html>

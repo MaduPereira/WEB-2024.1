@@ -1,0 +1,57 @@
+body {
+    background-color: #333;
+    padding: 1rem;
+    color: #FFF;
+}
+
+section {
+    max-width: 600px;
+    border: 1px solid #95f8bb;
+    padding: 1rem;
+}
+
+h1 { 
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+h2 { 
+    font-size: 1.4rem;
+    margin: 0;
+    color: #fff;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    background: mediumpurple;
+    margin-top: 1rem;
+    color: #FFF;
+    font-weight: bold;
+    font-size: .925rem;
+    border-radius: 4px;
+}
+
+#container {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: yellow;
+}
+
+#animate {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background: red;
+}
+
+/* estilo da tabela */
+table, td, th{
+    border-collapse:collapse;
+    border: 1px solid red;
+    }

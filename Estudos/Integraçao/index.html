@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Meu blog - Exemplo</title>
+</head>
+<body>
+    <h1>Felizardo News</h1>
+    <section>
+        <h2>Doação de animais no centro de Cabo Frio</h2>
+
+        <p>Acontece nessa quinta feira, 04/11, a grande feira de doação de animais na cidade de Cabo Frio./ </p>
+        <p>Esses animais foram resgatados em situação de rua, muitos filhotes, e tratados pelo Centro de Animais Felizardo, e agora estão prontos para receberem todo amor de um lar</p>
+
+        <button onclick="myFunction()"> Saiba Mais </button>
+    </section>
+
+    <!-- Animação -->
+    <section>
+        <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+            Name: <input type="text" name="fname">
+            <input type="submit" value="Submit">
+            </form>
+    </section>
+    <section>
+        <p><button onclick="myMove()">Click Me</button></p> 
+        <div id ="container">
+            <div id ="animate"></div>
+        </div>
+    </section>
+
+    <!-- Arrays Incluindo elementos no array e exibindo os elementos incluídos. -->
+    <!-- <section> 
+        <form> 
+            Novo estudante: <input type="text"
+            id="estudante">
+            <button type="button" onclick="incluir1()">Incluir
+            Alunos</button><br/>
+            </form>
+            <h3>Novos alunos na turma</h3>
+            <button type="button" onclick="verLista1()">Exibir
+            lista de alunos</button><br/>
+            <div id="listadealunos"></div>
+    </section> -->
+
+    <!-- Aprimorando a exibição dos elementos do array em uma tabela. -->
+    <!-- <section>
+        <form>
+            Novo estudante: <input type="text" id="estudante"/>
+            <button type="button" onclick="incluir2()">Incluir
+            Alunos</button><br/>
+            </form>
+            <h3>Novos alunos na turma</h3>
+            <button type="button" onclick="verLista2()">Exibir lista de
+            alunos</button><br/>
+            <div id="listadealunos"></div>
+    </section> -->
+    
+    <!-- Arrays Alternando as cores da linha da tabela. -->
+    <section>
+        <form>
+            Novo estudante: <input type="text" id="estudante"/>
+            <button type="button" onclick="incluir3()">Incluir
+            Alunos</button><br/>
+            </form>
+            <h3>Novos alunos na turma</h3>
+            <button type="button" onclick="verLista3()">Exibir lista de
+            alunos</button><br/>
+            <br> <br>
+            <div id="listadealunos"></div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
