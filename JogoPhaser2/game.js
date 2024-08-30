@@ -144,9 +144,9 @@ class jogo extends Phaser.Scene {
 
     hitRocha(player, rochas) {
 
-        rochas.disableBody(true, true);
+        // rochas.disableBody(true, true);
 
-        if(score==0)
+        if(score<=1)
         {
             // Parar movimento e animações do jogador
             player.setVelocity(0);
